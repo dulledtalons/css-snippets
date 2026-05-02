@@ -1,0 +1,26 @@
+/* ---------------------- */
+/* Highlight server icons */
+/* ---------------------- */
+
+[aria-label="Servers"] {
+    [data-list-item-id^="guildsnav"][aria-selected="false"] {
+        filter: brightness(70%) saturate(70%);
+        &:hover {filter: none}
+    }
+    [data-list-item-id^="guildsnav"][aria-selected="true"] {filter: none}
+}
+
+/* ---------------------- */
+/* Highlight folder icons */
+/* ---------------------- */
+.folderButton__48112[aria-expanded="false"] {
+    .folderButtonInner__48112 {
+        filter: brightness(70%) saturate(70%);
+        &:hover {filter: none}
+    }
+}
+
+.listItem__650eb:has(.wrapper__58105):has([style*="height: 40px"]),
+.folderButton__48112[aria-expanded="true"] {
+  .folderButtonInner__48112 {filter: none}
+}
