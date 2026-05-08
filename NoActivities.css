@@ -8,30 +8,30 @@
 
 /* hide status until hovered over */
 .peopleListItem_cc6179 {
-	.subtext__0a06e {display: none; margin: 5px}
+    .subtext__0a06e {display: none; margin: 5px}
 
-	&:hover {
-		.subtext__0a06e {
-			display: block;
-			overflow: hidden;
-			white-space: nowrap;
-			text-overflow: ellipsis;
-		}
-	}
+    &:hover {
+        .subtext__0a06e {
+            display: block;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+        }
+    }
 
 /* format status and username horizontally to fill up empty space */
-	.userInfo__0a06e {
-		max-width: 90%;
+    .userInfo__0a06e {
+        max-width: 90%;
 
-		.text__0a06e {
-			font-size: 105%;
-			flex-direction: row;
-			align-items: center;
-			padding: 5px 5px 5px 5px; 
-		}
-	}
-	
-}	
+        .text__0a06e {
+            font-size: 105%;
+            flex-direction: row;
+            align-items: center;
+            padding: 5px 5px 5px 5px; 
+        }
+    }
+    
+}    
 
 /* -------------------------- */
 /* Hide Activities on Profile */
@@ -39,17 +39,21 @@
 
 /* hide activity board and shrink background */
 .layoutContainer__9c3be {
-	max-width: 36vw;
-
-	.inner_c0bea0 {
-		justify-content: center;
-
-		.profile__9c3be {
-			width: 88%;
-		}
-		.container__37bfc {display: none}
-	}
+    max-width: 45%;
+    margin: auto;
+    
+    .inner_c0bea0 {
+      padding: 20px !important;
+    }
+        .profile__9c3be {
+            width: 100%;
+            border-radius: var(--radius-lg);
+            }
+        
+        .container__37bfc {display: none}
+    
 }
+
 
 /* hide game collection */
 [aria-label="Game Collection"] {display: none}
@@ -65,11 +69,11 @@ h3:has(.headerContainer__095fe) {display: none}
 
 /* hide status until hover */
 .memberInner__5d473 {
-		.subText__91a9d {
-			display: none;
-		}
+        .subText__91a9d {
+            display: none;
+        }
 
-		&:hover {
-			.subText__91a9d {display: flex}
-		}
+        &:hover {
+            .subText__91a9d {display: flex}
+        }
 }
