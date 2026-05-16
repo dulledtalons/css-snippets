@@ -38,12 +38,16 @@
 /* -------------------------- */
 
 /* hide activity board and shrink background */
+[class^="root"] {
+  max-width: 45%;
+}
+
 .layoutContainer__9c3be {
-    max-width: 45%;
+    max-width: 100%;
     margin: auto;
     
     .inner_c0bea0 {
-      padding: 20px !important;
+      padding: 14px !important;
     }
         .profile__9c3be {
             width: 100%;
@@ -51,9 +55,7 @@
             }
         
         .container__37bfc {display: none}
-    
 }
-
 
 /* hide game collection */
 [aria-label="Game Collection"] {display: none}
