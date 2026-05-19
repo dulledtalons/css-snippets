@@ -38,7 +38,7 @@
 /* -------------------------- */
 
 /* hide activity board and shrink background */
-[class^="root"][class$="9c3be"] {
+[class^="root"]:has(.layoutContainer__9c3be) {
   max-width: 45%;
 }
 
